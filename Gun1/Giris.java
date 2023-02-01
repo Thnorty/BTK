@@ -43,5 +43,6 @@ class Giris{
         if (number < 10 || number % 2 == 0) {
             System.out.println("Sayi 10'dan kucuk veya cift");
         }
+        keyboard.close();
     }
 }

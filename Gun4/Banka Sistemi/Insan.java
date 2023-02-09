@@ -132,13 +132,13 @@ public class Insan {
     }
 
     public void setTL(double para) {
-        paraTL = para;
         banka.setTL(banka.getTL() + (para - paraTL));
+        paraTL = para;
     }
     
     public void setUSD(double para) {
-        paraUSD = para;
         banka.setUSD(banka.getUSD() + (para - paraUSD));
+        paraUSD = para;
     }
 
     public double getTL() {
